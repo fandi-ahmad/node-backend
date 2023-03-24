@@ -11,8 +11,6 @@ const response = (statusCode, message, data, res) => {
             }
         }
     ])
-    // res.status(statusCode).json({
-    // })
 }
 
 module.exports = response
